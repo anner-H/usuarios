@@ -1,0 +1,63 @@
+body{
+    background-color: #F0F2F2;
+}
+.caja-padre{
+    width: 40rem;
+    height: 40rem;;
+    border: solid 0.3rem #012E40;
+    background-color: #A0C9D9;
+    border-radius: 0rem;
+    margin: auto;
+    margin-top: 15rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja-padre_título{
+    width: 25rem;
+    height: 10rem;
+    border: solid 0.3rem #012E40;
+    background-color: #225C73;
+    border-radius: 1rem;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cajaoculta{
+    display: none;
+}
+
+.usuario{
+    font-size: 5rem;
+    color: #e4ebff;
+}
+
+.botón{
+    width: 15rem;
+    height: 5rem;
+    border: solid 0.3rem #00102b;
+    background-color: #15d9d6e3;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 0.2rem;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2rem;
+    color: #e4ebff;
+}
+
+.cambiobt{
+    background-color: rgb(197, 0, 0);
+    border-radius: 10rem;
+    transition: 0.5s;
+    width: 20rem;
+}
